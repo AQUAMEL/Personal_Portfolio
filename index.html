@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/all.min.css">
+</head>
+
+<body>
+    <section class="full_page_container">
+        <!-- ============ Navigation Bar  -->
+        <header class="header">
+            <div class="logo">
+                <i class="fa-brands fa-affiliatetheme"></i>
+                <strong>AC</strong>
+            </div>
+            <nav class="menu">
+                <i class="menu_bar fa-solid fa-bars-staggered"></i>
+                <ul>
+                    <li class="active">
+                        <a href="#home">
+                            <i class="fa-solid fa-house menu_icon"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <i class="fa-solid fa-user menu_icon"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li><a href="#contact">
+                            <i class="fa-solid fa-phone-volume menu_icon"></i>
+                            <span>Contact</span>
+
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="theme" onclick="dark_mode()">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+        </header>
+        <!-- ============ Page content ================ -->
+        <section class="main_container">
+
+            <!-- =========== Home Page ========= -->
+            <section class="home content_container active" id="home">
+                <div class="welcome_message">
+                    <h1 class="name"><b>Aquamel_J</b></h1>
+                    <div class="work">
+                        <span class="side_line"></span>
+                        <b>frontend developer</b>
+                    </div>
+                    <p class="note">
+                        I'm Creative Director and UI/UX Designer from Ghana,
+                        working in web development.
+                        I enjoy turning complex problems into simple,
+                        beautiful and intuitive designs.
+                    </p>
+                    <a class="download_cv" href="path/to/yourfile.pdf" download="CustomFilename.pdf">
+                        Download CV
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+                </div>
+                <div class="my_image_1">
+                    <div class="img_box">
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- =========== About Page ========= -->
+            <section class="about content_container" id="about"></section>
+
+            <!-- =========== Service Page ========= -->
+            <section class="service content_container" id="service"></section>
+
+            <!-- =========== Project Page ========= -->
+            <section class="project content_container" id="project"></section>
+
+            <!-- =========== Contact Page ========= -->
+            <section class="contact content_container" id="contact"></section>
+
+        </section>
+    </section>
+
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
